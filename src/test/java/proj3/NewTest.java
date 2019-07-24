@@ -19,7 +19,7 @@ public class NewTest {
   @BeforeMethod
   public void beforeMethod() {
 	  //launch browser and application
-	  System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
+	  System.setProperty("webdriver.chrome.driver", "C:\\Users\\Training_C2d.02.11\\Downloads\\chromedriver_win32 (2)\\chromedriver.exe");
 	  driver=new ChromeDriver();
 	  driver.get("http://newtours.demoaut.com");
   }
